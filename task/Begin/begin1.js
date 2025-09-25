@@ -3,4 +3,4 @@ let p = function (a) {
     return a*4;
 }
 
-p(5);
+console.log(p(5));
