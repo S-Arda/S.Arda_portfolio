@@ -1,5 +1,5 @@
 let x = 5;
-
+let y = 60;
 let test = function () 
 {
     let x = 10;
