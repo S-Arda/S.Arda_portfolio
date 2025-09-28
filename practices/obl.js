@@ -9,3 +9,21 @@ let test = function ()
 
 console.log(test());
 console.log(x+y);
+
+let out = function()
+{
+    let y = 5;
+    function z()
+    {
+        console.log(y)
+        y++
+    }
+    return z;
+}
+
+let result = out();
+result();
+result();
+result();
+result();
+result();
