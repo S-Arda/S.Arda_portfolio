@@ -1,6 +1,6 @@
 function forsum(...args)
 {
-    return function sum1(...args)
+    return function sum1()
             {
                 let odd = 0 ;
                 for (let a = 0 ; a = args.length ; a++ ) 
